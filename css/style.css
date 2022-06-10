@@ -1,0 +1,19 @@
+#page-main {
+    display: grid;
+    object-fit: cover;
+    
+}
+
+#page-main>img {
+    background-color: green;
+    width: 50vw;
+    
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#page-main>img:hover {
+    width: 40vw;
+    background-color: blue;
+}
