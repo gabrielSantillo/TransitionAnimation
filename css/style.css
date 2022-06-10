@@ -4,16 +4,13 @@
     
 }
 
-#page-main>img {
-    background-color: green;
-    width: 50vw;
-    
-    transition-property: width;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
+.h1 {
+    width: 50%;
+    background-color: aquamarine;
+    transition: all 1s ease-in-out;
 }
 
-#page-main>img:hover {
-    width: 40vw;
-    background-color: blue;
+.h1:hover {
+    width: 80%;
+    background-color:darkorchid;
 }
